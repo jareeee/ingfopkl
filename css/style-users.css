@@ -1,0 +1,259 @@
+#container-profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#container-profile{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 20rem;
+    align-items: start;
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    padding: 2rem 0;
+}
+.foto-profile{
+    margin-right: 2rem;
+    width: 5rem;
+}
+#select-profile{
+    display: flex;
+    flex-direction: column;
+}
+#select-profile .logout {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+#select-profile .logout:hover {
+    margin-left: 7.8rem;
+    text-align: center;
+    color: #EEC643;
+    width: 5rem;
+}
+.email{
+    display: none;
+}
+.select1{
+    display: flex;
+    margin-left:2rem;
+}
+.select1 img{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.select1 a{
+    color: black;
+}
+.select1 a:hover{
+    color: #EEC643;
+}
+.select2{
+    display: flex;
+    margin-left:2rem;
+}
+.select2 img{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.select2 a{
+    color: black;
+}
+.select2 a:hover{
+    color: #EEC643;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#edit-profile{
+    width: 40rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#edit-profile form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 2rem;
+}
+#edit-profile form input{
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#submit{
+    background-color: #EEC643;
+    border-color: transparent;
+    height: 2rem;
+}
+#deskripsi {
+    height: 10rem;
+    margin-bottom: 1rem;  
+}
+
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#container-porto {
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-porto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2rem;
+}
+.container-porto2 img{
+    width: 45rem;
+    margin-top: 1rem;
+}
+#container-resume{
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cv img{
+    width: 45rem;
+    margin: 2rem 0 ;
+}
+button{
+    background-color: #EEC643;
+    border: transparent;
+    width: 192px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.active a{
+    color: #EEC643;
+
+}
+@media only screen and (max-width:700px){
+    #menulist{
+        width: 100%;
+        position: absolute;
+        background-color: #EEC643;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navigation li{
+        display: block;
+        margin-top: 10px;
+        margin-left: 2rem;
+        padding-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .navigation li a{
+        color: #FFFFFF;
+    }
+
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 12rem;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav li{
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+    .user-login{
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+        bottom: 2rem;
+    }
+    .login,.signup{
+        text-align: center;
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+    #container-profiles {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #container-profile{
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+    }
+    #form{
+        align-items: center;
+    }
+    #edit-profile{
+        width: 20rem;
+        margin-left: 2rem;
+    }
+    #dashboard{
+        margin-left: 2rem;
+        align-items: center;
+    }
+    #container-porto {
+        width: 20rem;
+        height: 40rem;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .container-porto2 {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container-porto2 img{
+        width: 18rem;
+        height: 25rem;
+    }
+    #container-resume{
+        width: 20rem;
+        margin-bottom: 19rem;
+    }
+    #cv img{
+        width: 19rem;
+    }
+}
+

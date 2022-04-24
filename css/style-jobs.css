@@ -1,0 +1,234 @@
+.search-bar{
+    margin-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.search{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+#info {
+    background-image:url(../foto/search.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 10.2px;
+    width: 28.3rem;
+    height: 2rem;
+    border-radius: 7px;
+    text-indent: 2rem;
+}
+
+#domisili {
+    background-image:url(../foto/loc.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 10.2px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 7px;
+    text-indent: 2rem;
+}
+
+button {
+    background-color: black;
+    width: 4rem;
+    height: 2rem;
+    color: #EEC643;
+    border-radius: 70px;
+}
+#result-search-bef {
+    margin-top: 5.4rem;
+}
+#result-search-bef > p {
+    margin-bottom: 2rem;
+    color: darkgrey;
+    font-size: 36px;
+}
+#result-search-aft {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.diff {
+    margin-top: 2rem;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+#result-search-aft-right{
+    display: flex;
+    flex-direction: column;
+}
+#result-search-aft-right2 {
+    margin-left: 19rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 44rem;
+    height: 40rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#result-search-aft-right img {
+    width: 3.5rem;
+    position: relative;
+    top: 2rem;
+    right: 17rem;
+} 
+#result-search-aft-right h1  {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    text-align: start;
+}
+#result-search-aft-right p{
+    margin-left: 2rem;
+    text-align: start;
+}
+#result-search-aft-right .lamar{
+    position: relative;
+    top: 10rem;
+    right: 13.5rem;
+    width: 12rem;
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}
+#result-search-aft-right .lamar:hover{
+    background-color: yellow;
+    color: black;
+}
+
+@media (max-width:700px) {
+    #menulist{
+        width: 100%;
+        position: absolute;
+        background-color: #EEC643;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navigation li{
+        display: block;
+        margin-top: 10px;
+        margin-left: 2rem;
+        padding-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .navigation li a{
+        color: #FFFFFF;
+    }
+
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 12rem;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav li{
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+    .user-login{
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+        bottom: 2rem;
+    }
+    .login,.signup{
+        text-align: center;
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+    main{
+        width: 19rem;
+        font-size: 15px;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+
+    }
+    .search-bar {
+        display: flex;
+        justify-content: start;
+        margin-left: 1rem;
+    }
+    .search {
+        margin-top: 1.5rem;
+    }
+    #info {
+        width: 15rem;
+    }
+    #result-search-bef > p {
+        font-size: 20px;
+    }
+    #result-search-bef > img{
+        width: 20rem;
+    }
+    #result-search-aft {
+        flex-direction: column;
+    }
+    #result-search-aft-right{
+        margin-left: -15rem;
+    }
+    #result-search-aft-right2 {
+        margin-left: 18rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        width: 15rem;
+        height: 23rem;
+    }
+    #result-search-aft-right img {
+        width: 2rem;
+        position: relative;
+        top: 1rem;
+        left: -4.5rem;
+    } 
+    #result-search-aft-right h1  {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 18px;
+        text-align: start;
+    }
+    #result-search-aft-right p{
+        margin-left: 1rem;
+        font-size: 11px;
+        text-align: start;
+    }
+    #result-search-aft-right .lamar{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 8rem;
+        font-size: 9px;
+        background-color: black;
+        color: yellow;
+        border-radius: 5px;
+    }
+    .diff {
+        margin-top: 1rem;
+    
+    }
+}

@@ -1,0 +1,179 @@
+#container-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5.6rem;
+}
+#container-about div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    margin-top: 5rem;
+}
+#container-about div h1{
+    font-size: 48px;
+}
+#container-about div p {
+    margin-top: 2rem;
+    font-size: 14px;
+}
+#bg-yellow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEC643;
+    height: 35rem;
+    margin-top: 20rem;
+    margin-bottom: 25rem;
+}
+.top{
+    position: relative;
+    bottom: 13rem;
+}
+.top h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.top p{
+    margin-bottom: 1rem;
+}
+.bottom{
+    position: relative;
+    bottom: 3rem;
+}
+.bottom h2{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.bottom img{
+    margin-left: 1rem;
+}
+.footer-col h5{
+    margin-left: 0;
+}
+.footer-col:nth-child(4) h5{
+    margin-left: 1.7rem;
+}
+@media only screen and (max-width:700px){
+    #menulist{
+        width: 100%;
+        position: absolute;
+        background-color: #EEC643;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navigation li{
+        display: block;
+        margin-top: 10px;
+        margin-left: 2rem;
+        padding-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .navigation li a{
+        color: #FFFFFF;
+    }
+
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 12rem;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav li{
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+    .user-login{
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+        bottom: 2rem;
+    }
+    .login,.signup{
+        text-align: center;
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+    #container-about img{
+        width: 20rem;
+    }
+    #container-about{
+        flex-direction: column-reverse;
+        margin-left: 2rem;
+        margin-top: -2rem;
+    }
+    #container-about div{
+        align-items: flex-start;
+        text-align: start;
+        width: 20rem;
+    }
+    #container-about div h1{
+        font-size:31px;
+    }
+    #container-about div p {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+    #bg-yellow{
+        height: 18rem;
+        margin-top: 10rem;
+        margin-bottom: 15rem;
+    }
+    .top{
+        bottom: 6.7rem;
+    }
+    .top h1{
+        font-weight: 700;
+        margin-left: 0.5rem;
+        font-size: 20px;
+    }
+    .top p{
+        font-size: 12px;
+        margin-left: 0.5rem;
+    }
+    .top div img{
+        width: 5.3rem;
+    }
+    .bottom{
+        position: relative;
+        right: 0;
+        bottom: 3rem;
+    }
+    .bottom h2{
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+    .bottom img{
+        width: 7.2rem;
+        margin-left: 0;
+    }
+
+}

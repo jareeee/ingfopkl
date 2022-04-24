@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Inter';
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+main{
+    margin-top: 10rem;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo{
+    color: #191919;
+    font-size: 2em;
+    font-family: 'poppins';
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    font: 'Inter';
+    font-weight: 500;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.navigation li a{
+    color: #191919;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.navigation li a:hover{
+    color: #EEC643;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    font: 'Inter';
+    font-weight: 500;
+}
+
+.nav li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav li a{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.user-login{
+    color: black;
+}
+.login,.signup{
+    color: #EEC643;
+    background-color: rgba(238,198,67,20%);
+    border-radius: 10%;
+    padding: 5px 13px;
+}
+
+.signup:hover, .login:hover{
+    color: #FFFFFF;
+    background-color: #191919;
+}
+
+.banner{
+    padding: 200px 80px 80px;
+    min-height: 100vh;
+    display: flex;
+}
+
+.banner h1{
+    color: #191919;
+    font-size: 100px;
+    line-height: 95px;
+    font-weight: 700;
+}
+
+.box-recom {
+    position: relative;
+    margin-top: 2rem;
+    right: 2rem;
+}
+
+.box-content {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+#search-box {
+    background-color: #EEC643;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.4rem 0.5rem;
+    text-align: center;
+}
+#search-box:hover {
+    background-color: yellow;
+}
+.box-content li {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.4rem 0.5rem;
+    text-align: center;
+
+}
+
+.banner .foto{
+    width: 524px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: -35px;
+} 
+
+.brand{
+    background-color: #EEC643;
+    height: 35vh;
+    display: flex;
+}
+
+.brand-img {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8rem;
+}
+.brand-img > img{
+    width: 11rem;
+    padding: 0.8rem;
+}
+
+.brand h3 {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.brand p {
+    padding-left: 100px;
+}
+
+.h2 {
+    margin-top: 100px;
+    padding-bottom: 3.8rem;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box-featured {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box-featured2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h3 {
+    padding-top: 5rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.p {
+    margin: 2rem 2.5rem;
+    width: 17rem;
+    padding-bottom: 2rem;
+}
+.explore{
+    margin: 3rem;
+    color: #EEC643;
+}
+
+.explore:hover{
+    color: #191919;
+    margin: 3.2rem;
+    letter-spacing: 1px;
+    
+}
+.box-featured2 div{
+    border: 2px solid;
+    margin-left: 4.2rem;
+    margin-bottom: 4.2rem;
+    width: 350px;
+    height: 345px;
+    border-radius: 10px;
+}
+
+.brand2{
+    background-color: #EEC643;
+    height: 70vh;
+}
+
+.bingxiling{
+    position: static;
+    width: 510px;
+    margin-top: -287px;
+    margin-left: 800px;
+}
+.kutip{
+    position: absolute;
+    width: 2rem;
+    margin-left: 4rem;
+    margin-top: 7.6rem;
+
+}
+.china{
+    margin-right: 500px;
+    padding: 150px 100px 0;
+}
+
+.china2{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 50px 100px 0;
+}
+
+.china3{
+    font-size: 15px;
+    padding: 0 100px 0;
+    margin-top: -20px;
+}
+
+.footer{
+    margin-top: 15rem;
+    background-color: #EEC643;
+    padding: 70px 0;
+}
+
+.col1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h5{
+    font-size: 20px;
+    color: #191919;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.footer-col ul li:not(last-child){
+    margin-bottom: 15px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    color: #191919;
+}
+
+.footer-col ul li a:hover{
+    letter-spacing: 1.5px;
+}
+
+.social-link{
+    padding-left: 25px;
+}
+
+.social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,50%) ;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    border-radius: 40px;
+}
+
+.social-link a:hover{
+    background-color: #FFFFFF;
+}
+
+.menuicon{
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:700px){
+
+    #menulist{
+        width: 100%;
+        position: absolute;
+        background-color: #EEC643;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navigation li{
+        display: block;
+        margin-top: 10px;
+        padding-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .navigation li a{
+        color: #FFFFFF;
+    }
+
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 12rem;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav li{
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+    .user-login{
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+        bottom: 2rem;
+    }
+    .login,.signup{
+        text-align: center;
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-left: -3.7rem;
+    }
+    .content h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    #search-box{
+        width: 19rem;
+    }
+    .foto{
+        display: none;
+    }
+    .brand{
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .brand-text {
+        text-align: center;
+        margin-right: 4rem;
+    }
+    .brand-img{
+        display: none;
+    }
+    .box-featured .h2{
+        font-size: 25px;
+        text-align: start;
+        padding: 3rem 3rem;
+        font-weight: bold;
+    }
+    .box-featured2{
+        flex-direction: column;
+        margin-left: -2.1rem;
+    }
+    .box-featured2 div{
+        width: 20rem;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+    .col1{
+        flex-direction: column;
+        margin-left: 5rem;
+        
+    }
+}

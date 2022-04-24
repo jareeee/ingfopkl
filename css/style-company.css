@@ -1,0 +1,216 @@
+.box-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.content-company{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-left: 3rem;
+}
+.content-company h1{
+    font-size: 50px;
+}
+.content-company p {
+    margin-bottom: 4rem;
+}
+.content-company button {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #EEC643;
+}
+.content-company a {
+    font-style: italic;
+    color: black;
+}
+.bgkuning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #EEC643;
+    height: 25rem;
+    align-items: flex-start;
+    margin-bottom: 30rem;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+}
+.content2 h1{
+    width: 24rem;
+    margin-bottom: 1rem;
+}
+.kotakkotak{
+    display: flex;
+    flex-direction: column;
+}
+.kotakkecil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 8rem;
+    width: 32rem;
+    height: 10rem;
+    color: #191919;
+    background-color: #E6E8E6;
+}
+.kotakkecil p{
+    font-size: 11px;
+}
+.kotakkecil h3, .kotakkecil img, .kotakkecil p{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-col h5{
+    margin-left: 0;
+}
+.footer-col:nth-child(4) h5{
+    margin-left: 1.7rem;
+}
+@media only screen and (max-width:700px){
+    #menulist{
+        width: 100%;
+        position: absolute;
+        background-color: #EEC643;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navigation li{
+        display: block;
+        margin-top: 10px;
+        margin-left: 2rem;
+        padding-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .navigation li a{
+        color: #FFFFFF;
+    }
+
+    .menuicon{
+        display: block;
+        position: absolute;
+        left: 12rem;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav li{
+        padding: 5px;
+        margin-bottom: 1rem;
+
+    }
+    .user-login{
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+        bottom: 2rem;
+    }
+    .login,.signup{
+        text-align: center;
+        font-size: 12px;
+        width: 120px;
+        position: absolute;
+        left: 16.5rem; 
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+    .box-company{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -2rem;
+    }
+    .content-company{
+        width: 22rem;
+        text-align: center;
+    }
+    .content-company h1{
+        font-size: 21px;
+    }
+    .content-company p{
+        font-size: 14px;
+    }
+    .content-company button {
+        font-size: 14px;
+        align-self: center;
+    }
+    .content-company a {
+        text-align: start;
+        font-size: 14px;
+        align-self: center;
+    }
+    .content-company a,.content-company button{
+        position: relative;
+        top: 18rem;
+    }
+    .box-company img{
+        width: 18rem;
+        position: relative;
+        left: 4rem;
+        bottom: 6rem;
+    }
+    .bgkuning{
+        flex-direction: column;
+        height: 15rem;
+        align-items: flex-start;
+        margin-bottom: 55rem;
+    }
+    .content2{
+        position: relative;
+        left: 2.4rem;
+        top: 28rem;
+    }
+    .content2 h1{
+        width: 20rem;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .content2 img{
+        width: 20rem;
+    }
+    .kotakkecil{
+        top: 30rem;
+        left: 0;
+        width: 22.5rem;
+        background-color: white;
+
+    }
+    .kotakkecil p{
+        color: black;
+        font-size: 8px;
+    }
+    .kotakkecil h3{
+        font-size: 12px;
+    }
+    .kotakkecil img{
+        width: 5rem;
+    }
+    .kotakkecil h3, .kotakkecil img, .kotakkecil p{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        color: black;
+    }
+}
